@@ -1,9 +1,13 @@
 #include "main.h"
-#include <studio.h>
-void _putchar(char character) {
-  printf("%c", character);
-}
-int main() {
+#include <stdio.h>
+
+/**
+ * main -  prints _putchar
+ * Return: Always 0 (success)
+ */
+
+int main(void) 
+{
   _putchar('_');
   _putchar('p');
   _putchar('u');
@@ -14,3 +18,4 @@ int main() {
 
   return 0;
 }
+

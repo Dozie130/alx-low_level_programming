@@ -1,9 +1,8 @@
-#include <stdio.h>
-
+#include "main.h"
+#include <studio.h>
 void _putchar(char character) {
   printf("%c", character);
 }
-
 int main() {
   _putchar('_');
   _putchar('p');
